@@ -1,7 +1,5 @@
 const inquirer = require('inquirer');
 const Shapes = require('./lib/shapes.js');
-// const { run } = require('jest-cli');
-// const { getFileInfo } = require('prettier');
 
 const runShapes = new Shapes;
 
@@ -18,7 +16,8 @@ class CLI {
                 if(initials.length > 3) {
                     console.log('Input must be 3 Characters or less.')
                     return this.Initials();
-                } else {
+                }  else {
+                    initials = initials.toUpperCase();
                     runShapes.text = initials;
                     return this.getInfo();
                 }})
@@ -49,6 +48,7 @@ class CLI {
                 runShapes.shapeColor = shapeColor
                 runShapes.createLogo(); 
             })};
+
 };
 
 const initiate = new CLI;
