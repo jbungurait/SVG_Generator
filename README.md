@@ -51,29 +51,29 @@ More information on SVG's can be found here: [SVG](https://en.wikipedia.org/wiki
 ```
 
 ## Examples
-```md
+
 Example video:
-[SVG Generator](https://drive.google.com/file/d/1NOTfSYtQ6ibUzPs3yrqV78eywA6PLDZe/view)
+*[SVG Generator](https://drive.google.com/file/d/1NOTfSYtQ6ibUzPs3yrqV78eywA6PLDZe/view)
 
 Created Files:
-[JBU Circle](/examples/jbu.circle.svg)
-[JBU Square](/examples/jbu.square.svg)
-[JBU Triangle](/examples/jbu.triangle.svg)
-[New Circle](/examples/new.circle.svg)
-[New Triangle](/examples/new.triangle.svg)
-[New Square](/examples/new.square.svg)
-```
+*[JBU Circle](/examples/jbu.circle.svg)
+*[JBU Square](/examples/jbu.square.svg)
+*[JBU Triangle](/examples/jbu.triangle.svg)
+*[New Circle](/examples/new.circle.svg)
+*[New Triangle](/examples/new.triangle.svg)
+*[New Square](/examples/new.square.svg)
+
 
 ## Credits
-```md
+
 Tools Used:
-[Inquirer](https://www.npmjs.com/package/inquirer)
-[Node](https://nodejs.org/en/)
-[NPM](https://www.npmjs.com/)
-[Jest](https://jestjs.io/)
-[Path](https://nodejs.org/docs/latest/api/path.html)
-[FS](https://nodejs.org/docs/v0.3.1/api/fs.html)
-```
+*[Inquirer](https://www.npmjs.com/package/inquirer)
+*[Node](https://nodejs.org/en/)
+*[NPM](https://www.npmjs.com/)
+*[Jest](https://jestjs.io/)
+*[Path](https://nodejs.org/docs/latest/api/path.html)
+*[*FS](https://nodejs.org/docs/v0.3.1/api/fs.html)
+
 
 ## Future Development
 ```md
