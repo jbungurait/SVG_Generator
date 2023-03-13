@@ -46,9 +46,9 @@ You may choose a text color.
 You may choose a shape of: circle, triangle, or square.
 You may choose a background color for your shape.
 Your file will be created and you may use it for any future projects!
-
-More information on SVG's can be found here: [SVG](https://en.wikipedia.org/wiki/SVG)
 ```
+More information on SVG's can be found here: [SVG](https://en.wikipedia.org/wiki/SVG)
+
 
 ## Examples
 
