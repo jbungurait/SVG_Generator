@@ -22,4 +22,46 @@ AND the output text "Generated text.shape.svg" is printed in the command line
 WHEN I open the `text.shape.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
+## Installation
+Download the SVG_Generator package to your computer.
+Open the program in a code editor like VS Code.
+Make sure that you have Node installed on your computer.
+Install the packages using 'npm i' in the comand line.
+Initiate the program using 'node index.js' in the comand line.
+Have fun!
+
+## How to Use
+This program is designed to generate SVG images or Scalabel Vector Graphics based on user input.
+You may enter up to three characters.
+You may choose a text color.
+You may choose a shape of: circle, triangle, or square.
+You may choose a background color for your shape.
+Your file will be created and you may use it for any future projects!
+
+More information on SVG's can be found here: [SVG](https://en.wikipedia.org/wiki/SVG)
+
 ## Examples
+Example video:
+[SVG Generator](https://drive.google.com/file/d/1NOTfSYtQ6ibUzPs3yrqV78eywA6PLDZe/view)
+
+Created Files:
+[JBU Circle](/examples/jbu.circle.svg)
+[JBU Square](/examples/jbu.square.svg)
+[JBU Triangle](/examples/jbu.triangle.svg)
+[New Circle](/examples/new.circle.svg)
+[New Triangle](/examples/new.triangle.svg)
+[New Square](/examples/new.square.svg)
+
+## Credits
+Tools Used:
+[Inquirer](https://www.npmjs.com/package/inquirer)
+[Node](https://nodejs.org/en/)
+[NPM](https://www.npmjs.com/)
+[Jest](https://jestjs.io/)
+[Path](https://nodejs.org/docs/latest/api/path.html)
+[FS](https://nodejs.org/docs/v0.3.1/api/fs.html)
+
+## Future Development
+1) Check if user input matches alphabetical charcaters.
+2) Allow users to choose a desired color easier.
+3) Add more shapes and options to choose from.
