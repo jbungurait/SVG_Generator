@@ -22,3 +22,4 @@ AND the output text "Generated text.shape.svg" is printed in the command line
 WHEN I open the `text.shape.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
+## Examples

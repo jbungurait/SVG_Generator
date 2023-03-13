@@ -9,7 +9,7 @@ class CLI {
       .prompt([
         // accepts
         {
-          type: "input", // 1) 3 characters
+          type: "input", 
           name: "initials",
           message: "Input your initials.",
         },
@@ -31,18 +31,19 @@ class CLI {
       .prompt([
         {
           type: "input",
-          name: "textColor", // 2) text color (keyword or hex value)
+          name: "textColor", 
+          message: "Enter a text color.",
         },
         {
           type: "list",
-          name: "shape", // 3) prompt shape - list: circle, triangle, square
+          name: "shape", 
           message: "Choose a shape.",
           choices: ["Circle", "Triangle", "Square"],
         },
         {
           type: "input",
-          name: "shapeColor", // 4) shapes color
-          message: "Choose a background color.",
+          name: "shapeColor",
+          message: "Enter a background color.",
         },
       ])
       .then(({ textColor, shape, shapeColor }) => {
